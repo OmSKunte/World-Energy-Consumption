@@ -1,4 +1,4 @@
-# ⚡ Energy Consumption Predictor
+# Energy Consumption Predictor
 
 A Machine Learning web application built using **Streamlit** that predicts energy consumption based on user input parameters.  
 The model is trained using **Random Forest Regressor** and provides performance metrics for evaluation.

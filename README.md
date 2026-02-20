@@ -30,7 +30,6 @@ The model is trained using **Random Forest Regressor** and provides performance 
   - Root Mean Squared Error (RMSE)
  
 ## Energy Consumption Predictor – Main Dashboard
-![Energy Consumption Predictor Dashboard](https://github.com/user-attachments/assets/e75b006b-8391-41a0-a572-9957a72d313d)    
+![Energy Consumption Predictor Dashboard](https://github.com/user-attachments/assets/c856dc43-61c9-45d6-9606-14f62f9b5400)
 ## Prediction Results & Model Performance
-![Prediction Results](https://github.com/user-attachments/assets/c856dc43-61c9-45d6-9606-14f62f9b5400)
-
+![Prediction Results](https://github.com/user-attachments/assets/e75b006b-8391-41a0-a572-9957a72d313d)    

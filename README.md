@@ -1,22 +1,36 @@
-# Energy Consumption Predictor
+# ⚡ Energy Consumption Predictor
 
-This project predicts energy usage using environmental and building parameters through a Random Forest Regressor  model
-
----
-
-## Project Files
-
-- app.py: Flask-based API for energy prediction
-- train_model.py: Trains the machine learning model and saves it
-- Cleaned_Energy_Consumption.csv: Dataset used for training
-- requirements.txt: All required Python libraries
-- README.md: Instructions and project documentation
+A Machine Learning web application built using **Streamlit** that predicts energy consumption based on user input parameters.  
+The model is trained using **Random Forest Regressor** and provides performance metrics for evaluation.
 
 ---
 
-## Required Libraries
+## Live Features
 
-Install dependencies:
+- Predict energy consumption using custom input values
+- Separate input fields for each parameter
+- Consumption level classification (Low / Moderate / High)
+- Model performance metrics:
+  - R² Score
+  - MAE
+  - RMSE
+- Clean and interactive Streamlit interface
 
-```bash
-pip install -r requirements.txt
+---
+
+##  Machine Learning Model
+
+- Algorithm: Random Forest Regressor
+- Preprocessing:
+  - OneHot Encoding for categorical features
+  - ColumnTransformer pipeline
+- Evaluation Metrics:
+  - R² Score
+  - Mean Absolute Error (MAE)
+  - Root Mean Squared Error (RMSE)
+ 
+## Energy Consumption Predictor – Main Dashboard
+![Energy Consumption Predictor Dashboard](https://github.com/user-attachments/assets/e75b006b-8391-41a0-a572-9957a72d313d)    
+## Prediction Results & Model Performance
+![Prediction Results](https://github.com/user-attachments/assets/c856dc43-61c9-45d6-9606-14f62f9b5400)
+
